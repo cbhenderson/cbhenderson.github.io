@@ -11,12 +11,12 @@ window._genesys = {
 			transport: {
 				type: 'purecloud-v2-sockets',
 				dataURL: 'https://api.usw2.pure.cloud', // replace with API URL matching your region
-				deploymentKey: 'VALID KEY IN REAL VERSION OF FILE', // replace with your Deployment ID
-				orgGuid: 'VALID ORG ID IN REAL VERSION OF FILE', // replace with your Organization ID
+				deploymentKey: 'c5bb3f3c-dacf-41da-9eb4-e9c703036092', // replace with your Deployment ID
+				orgGuid: 'dbc7e28d-8a79-43e1-b291-674aab9f138c', // replace with your Organization ID
 				interactionData: {
 					routing: {
 						targetType: 'QUEUE',
-						targetAddress: 'CH_ChatTest',
+						targetAddress: 'CH Chat Queue',
 						priority: 2
 					}
 				}
