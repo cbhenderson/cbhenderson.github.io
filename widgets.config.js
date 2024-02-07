@@ -21,6 +21,9 @@ window._genesys = {
 					}
 				}
 			}
+		},
+		
+		webchat: {
 			chatButton: {
 				enabled: true
 			}
