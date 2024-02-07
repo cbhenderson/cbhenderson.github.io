@@ -11,8 +11,8 @@ window._genesys = {
 			transport: {
 				type: 'purecloud-v2-sockets',
 				dataURL: 'https://api.usw2.pure.cloud', // replace with API URL matching your region
-				deploymentKey: 'VALID KEY IN ACTUAL FILE', // replace with your Deployment ID
-				orgGuid: 'VALID ORG ID IN ACTUAL FILE', // replace with your Organization ID
+				deploymentKey: '6ba5b5ba-39bb-4d23-8a9d-8f9d76116c5b', // replace with your Deployment ID
+				orgGuid: '99be84d7-7e37-439a-818b-f10d6190c85c', // replace with your Organization ID
 				interactionData: {
 					routing: {
 						targetType: 'QUEUE',
@@ -21,13 +21,11 @@ window._genesys = {
 					}
 				}
 			}
-		},
-		
-		webchat: {
-		    chatButton: {
-		      enabled: true, // (boolean) Enable/disable chat button on screen.
-		    }
+			chatButton: {
+				enabled: true
+			}
 		}
+		
 //
 //		userData: {
 //			addressStreet: '64472 Brown Street',
