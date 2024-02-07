@@ -25,7 +25,7 @@ window._genesys = {
 		
 		webchat: {
 			chatButton: {
-				enabled: true
+				enabled: true, // Not sure why
 			}
 		}
 		
